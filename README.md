@@ -30,7 +30,11 @@ Key details:
 
 This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
-1. Clone the repo ([Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository))
+1. Clone the repo
+
+```bash 
+git clone  <insert git link> 
+``` 
 
 ### Running
 

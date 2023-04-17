@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.header-content,
+.main-content,
+.footer__content {
+    max-width: 1280px;
+    padding: 14px;
+    align-items: center;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.main-content {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header__wrapper-container {
+    height: 600px;
+    background-position: center;
+}
+
+.header__wrapper-container,
+header,
+footer,
+.options {
+    background-image: url(https://mindb.no/life-of-mi/wp-content/uploads/2023/02/newBanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer,
+header {
+    background-position: top;
+}

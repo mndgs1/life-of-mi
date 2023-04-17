@@ -1,0 +1,119 @@
+/* ------------ Home ------------ */
+.banner h1 {
+    font-size: 5em;
+}
+
+.banner p {
+    font-size: 1.2em;
+}
+
+.banner {
+    padding-top: 60px;
+    padding-bottom: 140px;
+    text-align: center;
+}
+
+.banner p {
+    margin-bottom: 60px;
+}
+
+.carousel .blog-card {
+    margin-bottom: 20px;
+    min-height: 300px;
+}
+
+.carousel__button {
+    display: block;
+}
+
+.slide__buttons-choose {
+    display: none;
+}
+
+.hero__section {
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://mindb.no/life-of-mi/wp-content/uploads/2023/02/rose-banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero__section > * {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.hero__section p {
+    font-size: 1.2em;
+}
+
+.invisible {
+    display: none;
+}
+
+.input__container-hero input {
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    padding: 4px;
+}
+.input__container-hero {
+    display: flex;
+}
+
+.author__picture {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.author__container {
+    max-width: 720px;
+    align-items: center;
+    margin: auto;
+}
+
+.author__container p {
+    font-style: italic;
+}
+
+.subject__card {
+    height: 300px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.subject__card:hover {
+    transform: scale(1.02);
+    opacity: 0.9;
+}
+
+.subject__card h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subject__card-programming {
+    background-image: url(https://mindb.no/life-of-mi/wp-content/uploads/2023/02/Man-and-robot-with-computers-sitting-together-in-workplace.jpg);
+}
+
+.subject__card-parenting {
+    background-image: url(https://mindb.no/life-of-mi/wp-content/uploads/2023/02/parent-banner.jpg);
+}
+.subject__card-outdoors {
+    background-image: url(https://mindb.no/life-of-mi/wp-content/uploads/2023/02/mountains-rose-banner.jpg);
+}
+.subject__card-gamming {
+    background-image: url(https://mindb.no/life-of-mi/wp-content/uploads/2023/02/dragon-purple-banner.jpg);
+}
+
+.subject__card-gamming h2 {
+    color: #fff;
+}

@@ -1,0 +1,59 @@
+/* ---------Comments------------- */
+.comments {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.comments-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.comment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.comment {
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comment-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.comment-meta {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-author {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.comment-date {
+    font-size: 14px;
+    color: var(--grey-color);
+}
+
+.comment-body {
+    font-size: 16px;
+}
+
+.comment:not(:nth-child(-n + 3)) {
+    display: none;
+}

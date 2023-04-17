@@ -1,0 +1,96 @@
+/* ------ Contact -------- */
+.contacts__main {
+    max-width: 720px;
+    width: 100%;
+}
+
+.input__container {
+    margin: 20px 0px;
+}
+
+.contact__information > p {
+    margin: 20px 0px;
+}
+
+.input__suggestion,
+.input__container label {
+    display: inline-block;
+}
+
+.input__message {
+    display: none;
+}
+
+.success {
+    animation: fade-out 1s ease-out 3s forwards;
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.input__container input,
+.input__container textarea {
+    width: 100%;
+    border: 1px solid var(--lightgrey-color);
+    padding: 4px 0px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+#contact__form {
+    margin-bottom: 40px;
+}
+
+.contact__information {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.icon {
+    background-color: var(--lightblue-color);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+}
+
+.line {
+    padding: 4px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+i {
+    font-size: 28px;
+}
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--lightgrey-color);
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: var(--red-color);
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: var(--red-color);
+}
+
+.error {
+    display: block;
+    color: var(--red-color);
+}

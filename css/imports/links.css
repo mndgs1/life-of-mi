@@ -1,0 +1,52 @@
+/* ----------------- Links ----------------- */
+.cta {
+    background-color: var(--orange-color);
+    padding: 8px 30px;
+    font-size: 1.2em;
+    color: black;
+    border: 3px solid var(--orange-color);
+    border-radius: 4px;
+}
+
+.cta:hover {
+    background-color: #fff;
+    color: var(--orange-color);
+    text-decoration: none;
+}
+
+.load-more {
+    display: none;
+    margin: 20px auto;
+}
+
+.prev,
+.next {
+    display: none;
+}
+
+.more-comments {
+    visibility: hidden;
+}
+
+.anchor-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a,
+button,
+.wp-block-image,
+.category__label {
+    cursor: pointer;
+}
+
+.button__container {
+    text-align: center;
+}
+
+.success {
+    background-color: var(--green-color);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}

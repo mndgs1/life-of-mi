@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind+Vadodara:wght@300&family=Noto+Sans+Syloti+Nagri&family=Old+Standard+TT:ital@0;1&display=swap");
+
+@import "imports/global/typography.css";
+@import "imports/global/layout.css";
+@import "imports/links.css";
+@import "imports/components/loader.css";
+@import "imports/components/navigation.css";
+
+@import "imports/contact/contact.css";
+@import "imports/components/searchbar.css";
+@import "imports/blogs/blogs.css";
+@import "imports/blogSpecific/blogSpecific.css";
+@import "imports/blogSpecific/comments.css";
+@import "imports/home/home.css";
+
+@import "imports/variables.css";

@@ -1,0 +1,112 @@
+/* ----------- Bars ----------- */
+.bars {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 1001;
+}
+
+.bar {
+    box-sizing: border-box;
+    background-color: var(--grey-color);
+    width: 28px;
+    height: 3px;
+    transition: 0.2s ease-in-out;
+    border-radius: 6px;
+}
+
+.active .bar1 {
+    transform-origin: center;
+    transform: translateY(9px) rotate(45deg);
+}
+
+.active .bar3 {
+    transform-origin: center;
+    transform: translateY(-9px) rotate(-45deg);
+}
+
+.active .bar2 {
+    transform-origin: center;
+    scale: 0;
+}
+
+/* ----------- Navigation ----------- */
+.menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.menu.not-active {
+    transform-origin: top right;
+    animation: disappear 0.15s ease-in-out forwards;
+}
+
+.menu.active {
+    transform-origin: top right;
+    animation: appear 0.15s ease-in-out forwards;
+}
+
+.menu.loaded {
+    animation: none;
+    display: none;
+}
+
+.options {
+    height: 100vh;
+    background-size: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.options li {
+    padding: 20px 0px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.header-items,
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@keyframes appear {
+    from {
+        scale: 0;
+        right: -100%;
+    }
+    to {
+        scale: 1;
+        right: 0;
+    }
+}
+
+@keyframes disappear {
+    from {
+        scale: 1;
+        right: 0;
+    }
+    to {
+        scale: 0;
+        right: -100%;
+    }
+}
+
+.logo {
+    max-width: 140px;
+}
+
+.home-button {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}

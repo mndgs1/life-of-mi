@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/svg+xml" href="/images/logo/svg/icon.svg" />
+        <script src="https://kit.fontawesome.com/57518a1e7d.js" crossorigin="anonymous"></script>
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/media.css" rel="stylesheet" />
+        <title>Contacts | Life of Mi</title>
+        <meta name="description" content="Contact page of Life of Mi to connect dirrectly with the author" />
+
+        <!-- Hotjar Tracking Code for Life of Mi -->
+        <script>
+            (function (h, o, t, j, a, r) {
+                h.hj =
+                    h.hj ||
+                    function () {
+                        (h.hj.q = h.hj.q || []).push(arguments);
+                    };
+                h._hjSettings = { hjid: 3363256, hjsv: 6 };
+                a = o.getElementsByTagName("head")[0];
+                r = o.createElement("script");
+                r.async = 1;
+                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+                <div class="header-items">
+                    <a href="/index.html"><img class="logo" src="/images/logo/png/logo-no-background.png" alt="Brand logo" /></a>
+                    <div class="bars not-active">
+                        <span class="bar bar1"></span>
+                        <span class="bar bar2"></span>
+                        <span class="bar bar3"></span>
+                    </div>
+                </div>
+                <nav class="menu not-active loaded">
+                    <ul class="options">
+                        <li class="option"><a href="/index.html">Home</a></li>
+                        <li class="option"><a href="/blogs.html">Blog</a></li>
+                        <li class="option selected"><a href="/contact.html">Contacts</a></li>
+                        <li class="option"><a href="/about.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main-content contacts__main">
+            <form id="contact__form">
+                <h1>Message Us</h1>
+                <div class="input__container">
+                    <label for="name">Full Name*:</label>
+                    <p class="input__suggestion">(Should be more than 5 characters)</p>
+                    <input type="text" id="name" name="your-name" placeholder="Name" required />
+                    <p class="input__message"></p>
+                </div>
+                <div class="input__container">
+                    <label for="email">Email*:</label>
+                    <input type="email" id="email" name="your-email" placeholder="Email" required />
+                    <p class="input__message"></p>
+                </div>
+                <div class="input__container">
+                    <label for="subject">Subject*:</label>
+                    <p class="input__suggestion">(Should be more than 15 characters)</p>
+                    <input type="text" id="subject" name="your-subject" placeholder="Subject" required />
+                    <p class="input__message"></p>
+                </div>
+                <div class="input__container">
+                    <label for="message">Message*:</label>
+                    <p class="input__suggestion">(Should be more than 25 characters)</p>
+                    <textarea id="message" name="your-message" placeholder="Message" required></textarea>
+                    <p class="input__message"></p>
+                </div>
+                <button type="submit" class="cta submit">Send Message</button>
+            </form>
+            <div class="contact__information">
+                <h1>Contact Us</h1>
+                <div class="information__container">
+                    <div class="line">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <p class="bold">Address:</p>
+                        <p>Kloverstien 9, Grua</p>
+                    </div>
+                    <div class="line">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <p>Phone: +4794215193</p>
+                    </div>
+
+                    <div class="line">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <p>E-mail: <a href="mailto:lifeofmi@gmail.com">lifeofmi@gmail.com</a></p>
+                    </div>
+                    <div class="line">
+                        <div class="icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <p>Website: <a href="mindb.no/">mindb.no</a></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer__content">
+                <div class="footer__copyright">Copyright &copy; 2023 Mindaugas Bankauskas</div>
+                <div class="footer__socials"></div>
+            </div>
+        </footer>
+        <script type="module" src="/js/index.js"></script>
+    </body>
+</html>

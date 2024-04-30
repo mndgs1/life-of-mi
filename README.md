@@ -33,7 +33,7 @@ This is where you list how to get the project started. It typically just include
 1. Clone the repo
 
 ```bash 
-git clone  <insert git link> 
+git clone  https://github.com/mndgs1/life-of-mi
 ``` 
 
 ### Running
